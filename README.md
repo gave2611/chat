@@ -1,10 +1,11 @@
 
-                                  ********************* OBJECTIVE*****************
+                         
+                                                                                                                           ********************* OBJECTIVE*****************
 
 This repository shows an example  of the overall flow of a web application where users can chat with each other.
 
 
-                                    *****************HOW IT WORKS*****************
+                                                                                                                             *****************HOW IT WORKS*****************
   
 
 1.Open chat website by using your local browser & click on Create new account. 
@@ -24,45 +25,48 @@ This repository shows an example  of the overall flow of a web application where
 8. The messages send by the user as well as rececived from other uses will be displayed in the display area .ie:the name of the user who has send the message followed by the message the user has send     and date and time.
 
 
-                                          ******************DATABASE*********************
-   Database name : mydatabase
+                                                                                                                                 ******************DATABASE*********************
+                   
+            Database name : mydatabase
                  
-   Table 1: login
+                 Table: login
 
-	#            	Name	      Type	                   Collation	      Attributes 	Null	 Default	         Comments	        Extra	                   Action
+	#	Name	Type	                   Collation	          Attributes	Null	Default	         Comments	     Extra	                   Action
 	
-   1          uid Primary	 int(11)			                                            No     None                         AUTO_INCREMENT     Change Change	Drop Drop    More More
+                1          uid Primary	 int(11)			                                                No            None                                     AUTO_INCREMENT    Change Change	Drop Drop    More More
 
-	 2          username	   varchar(200)	        utf8mb4_general_ci		              No  	 None			                                       Change Change	Drop Drop    More More	
-   3          password	   varchar(200)	        utf8mb4_general_ci	                No	   None			                                        Change Change	Drop Drop    More More	
+	2          username	 varchar(200)	utf8mb4_general_ci		No	None			                                    Change Change	Drop Drop    More More	
+	
+                3          password	 varchar(200)	utf8mb4_general_ci		No	None			                                    Change Change	Drop Drop    More More	
 
-  Table 2 : signup
+                 Table: signup
        
-  #	    Name	         Type	               Collation	              Attributes	Null	   Default	        Comments         	Extra	                Action
+                 #	Name	         Type	            Collation	        Attributes	Null	Default	   Comments	Extra	                Action
 	
-   1	uid Primary       int(11)			                                             No        None                           AUTO_INCREMENT	    Change Change	Drop Drop  More More	
-   2	username        varchar(200)	    utf8mb4_general_ci	                   	 No        None			                                        Change Change	Drop Drop  More More	
-   
-   3	email	          varchar(200)	     utf8mb4_general_ci		                   No        None			                                        Change Change	Drop Drop   More More	
-   
-   4	password        varchar(200)      utf8mb4_general_ci		                   No	       None			                                        Change Change	Drop Drop    More More
+                 1	uid Primary       int(11)			                                No            None                              AUTO_INCREMENT	Change Change	Drop Drop    More More	
 
-	Table 3 : posts
+	 2	username         varchar(200)	   utf8mb4_general_ci		No	None			                                Change Change	Drop Drop    More More	
+
+	 3	email	          varchar(200)	    utf8mb4_general_ci		No	None			                                Change Change	Drop Drop    More More	
+
+	 4	password          varchar(200)      utf8mb4_general_ci		No	None			                                Change Change	Drop Drop    More More
+
+	Table: posts
 	
-   #	   Name	          Type	               Collation	             Attributes  	Null	  Default	         Comments	          Extra	                  Action
+                #	Name	     Type	                       Collation	Attributes  	Null	Default	    Comments	  Extra	                  Action
 	
-   1	id Primary    int(11)			                                                 No	       None		                        AUTO_INCREMENT	  Change Change	Drop Drop   More More	
+                1	id Primary    int(11)			                                                 No	None		             AUTO_INCREMENT	  Change Change	Drop Drop      More More	
 
-	2	    name	    varchar(200)	      utf8mb4_general_ci		                     No        None			                                        Change Change	Drop Drop   More More	
- 
-	3	    msg	      varchar(200)	      utf8mb4_general_ci	                     	 No	       None			                                        Change Change	Drop Drop   More More	
+	2	name	    varchar(200)	utf8mb4_general_ci		 No	None			                                  Change Change	Drop Drop      More More	
 
-	4	    date	     timestamp			                                               Yes	current_timestamp()			                              Change Change	Drop Drop    More More
+	3	msg	    varchar(200)	utf8mb4_general_ci		No	None			                                  Change Change	Drop Drop      More More	
 
-
+	4	date	     timestamp			                               Yes	current_timestamp()			  Change Change	Drop Drop      More More
 
 
-                                   *****************SETUP AND USAGE*****************
+
+
+                                                                                                                                    *****************SETUP AND USAGE*****************
 
 
 1. Install zampp server go to the location where you have installed zamp and open  zamp control panel.
@@ -73,17 +77,17 @@ This repository shows an example  of the overall flow of a web application where
 
 4. under this chat website folder create this files 
         A. index.php
-        B. registration.php
-        C.logout.php
-        D. login.php
-        E. home.php
-        F. dbh.php
-        G. send.php
-        H. signup.php
-        I. sess.php
-        J. style.css
+       B. registration.php
+       C.logout.php
+       D. login.php
+       E. home.php
+       F. dbh.php
+      G. send.php
+      H. signup.php
+       I. sess.php
+      J. style.css
 6. copy paste the attached source code to respective files using notepad++ or any other editor and save all the files.
 
 7. Run localhost/chat website on your browser
 
-                                                ***************** THANK YOU  *****************
+                                                                                                                                             ***************** THANK YOU  *****************
